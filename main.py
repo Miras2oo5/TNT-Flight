@@ -83,7 +83,7 @@ class Game(Widget):
             pos=(Window.width - 150, Window.height - 40)
         )
         self.add_widget(self.best_label)
-
+ 
         Clock.schedule_interval(self.update, 1/60)
         Clock.schedule_interval(self.spawn_plane, 2)
         Clock.schedule_interval(self.update_timer, 1)
